@@ -2,7 +2,7 @@ import random
 
 # Unknown word generator
 def wordGenerator() :
-    words = ["dog", "cat", "electric", "surreal", "apple", "phone", "herring", "dog"]
+    words = ["dog", "cat", "electric", "surreal", "apple", "phone", "herring", "hood", "glock", "ether", "navy", "automate"]
     unknown_word = words[random.randint(0,len(words)-1)]
     return unknown_word
 
